@@ -11,5 +11,7 @@ Regex metacharacters are special symbols with unique, non-literal meanings used 
 
 Some Important metacharacters:
 - '.' (dot): Matches any single character except a newline. Example: c.t matches "cat", "cot", "cut".
-- '+' : Matches one or more occurrences of the preceding character/pattern. Example: lo+l matches "lol", "lool", "loool", but not "ll".
+- '+' : Matches one or more occurrences of the preceding character/pattern. Example: lo+l matches "lol", "lool", "loool", but not         "ll".
 - '*' : Matches zero or more occurrences of the preceding character/pattern. Example: lo*l matches "ll", "lol", "lool".
+- '^' : Used to match the starting of the line or starting of the data.
+- '$' : Used to match the end of a line or end of the data.
